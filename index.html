@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Group Chat on Node.js</title>
+    <script defer src="http://localhost:4000/socket.io/socket.io.js"></script>
+  </head>
+  <body>
+   <script>
+        const socket = io('http://localhost:4000')
+        socket.on('chat-message',data=>{
+          console.log(data)
+        })
+  </script>
+  </body>
+</html>
