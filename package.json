@@ -16,7 +16,7 @@
     "md5": "^2.2.1",
     "moment": "^2.24.0",
     "mongoose": "^5.8.9",
-    "nodemailer": "^6.4.2",
+    "nodemailer": "^6.4.16",
     "nodemon": "^2.0.2"
   }
 }
